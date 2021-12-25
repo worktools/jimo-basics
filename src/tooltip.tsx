@@ -145,8 +145,8 @@ export let useTooltip = (props: ITooltipWrapperProps) => {
     elRef.current.addEventListener("mouseleave", handleLeave);
 
     return () => {
-      elRef.current.removeEventListener("mouseenter", handleEnter);
-      elRef.current.removeEventListener("mouseleave", handleLeave);
+      elRef.current?.removeEventListener("mouseenter", handleEnter);
+      elRef.current?.removeEventListener("mouseleave", handleLeave);
     };
   }, []);
 
