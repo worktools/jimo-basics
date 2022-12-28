@@ -1,7 +1,7 @@
 import React, { FC, ReactNode } from "react";
 import { css, cx } from "@emotion/css";
 import { rowCenter } from "@worktools/flex-styles";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import { GlobalThemeVariables } from "./theme";
 
 let themeColor = "hsla(221, 100%, 61%, 1)";

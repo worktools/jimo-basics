@@ -2,7 +2,8 @@ import React, { FC, useState } from "react";
 import { css, cx } from "@emotion/css";
 import { DocDemo } from "@worktools/doc-frame";
 import { ColorScheme } from "../../../src/color-scheme";
-import { row, rowMiddle, center, Space, expand } from "@worktools/flex-styles";
+import { row, rowMiddle, center, expand } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import CopyCode from "./copy-code";
 
 let mainColors = [

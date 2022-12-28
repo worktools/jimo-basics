@@ -3,7 +3,7 @@ import { css } from "@emotion/css";
 import { DocDemo, DocBlock, DocSnippet } from "@worktools/doc-frame";
 import { getLink } from "../../util/link";
 import JimoButton from "../../../src/jimo-button";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import JimoLink from "../../../src/jimo-link";
 
 let codeButton = `

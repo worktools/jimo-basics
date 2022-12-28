@@ -2,7 +2,6 @@ import React, { FC, useState } from "react";
 import { css, cx } from "@emotion/css";
 import { DocDemo } from "@worktools/doc-frame";
 import { ColorScheme } from "../../../src/color-scheme";
-import { row, rowMiddle, center, Space } from "@worktools/flex-styles";
 import copy from "copy-to-clipboard";
 
 let CopyCode: FC<{ code: string }> = React.memo((props) => {
