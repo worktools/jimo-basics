@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { css } from "@emotion/css";
 import { DocDemo, DocSnippet } from "@worktools/doc-frame";
 import StatusTag from "../../../src/status-tag";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 
 let DemoStatusTag: FC<{ className?: string }> = React.memo((props) => {
   /** Plugins */

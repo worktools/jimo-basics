@@ -1,4 +1,4 @@
-import React, { FC, useRef, useEffect, useState, CSSProperties } from "react";
+import React, { FC, useRef, useEffect, useState, CSSProperties, ReactNode } from "react";
 import ReactDOM from "react-dom";
 import { css, cx } from "@emotion/css";
 import { CSSTransition } from "react-transition-group";
@@ -71,6 +71,7 @@ export interface ITooltipWrapperProps {
   /** detect if popup is really required */
   shouldPop?: (element: HTMLElement) => boolean;
   onStatusChange?: (visible: boolean) => void;
+  children?: ReactNode;
 }
 
 export let useTooltip = (props: ITooltipWrapperProps) => {

@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { css, cx } from "@emotion/css";
-import { center, Space } from "@worktools/flex-styles";
+import { center } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 
 let TodoFeature: FC<{
   title?: string;

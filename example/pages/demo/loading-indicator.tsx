@@ -3,7 +3,7 @@ import { css } from "@emotion/css";
 import { DocDemo, DocSnippet } from "@worktools/doc-frame";
 import LoadingIndicator from "../../../src/loading-indicator";
 import LoadingArea from "../../../src/loading-area";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import JimoButton from "../../../src/jimo-button";
 
 let code = `

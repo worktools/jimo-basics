@@ -1,7 +1,8 @@
 import React, { FC, ReactText, ReactElement } from "react";
 import { css, cx } from "@emotion/css";
 import { DocDemo } from "@worktools/doc-frame";
-import { rowMiddle, Space, row, expand } from "@worktools/flex-styles";
+import { rowMiddle, row, expand } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import CopyCode from "./copy-code";
 import { LayoutSizes } from "../../../src/layout-sizes";
 

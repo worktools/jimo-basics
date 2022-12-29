@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC, ReactNode, useState } from "react";
 import { css, cx } from "@emotion/css";
 import LoadingIndicator from "./loading-indicator";
 import { center } from "@worktools/flex-styles";
@@ -11,6 +11,7 @@ let LoadingArea: FC<{
   coverClassName?: string;
   indicatorClassName?: string;
   antdStyle?: boolean;
+  children?: ReactNode;
 }> = React.memo((props) => {
   /** Plugins */
   /** Methods */

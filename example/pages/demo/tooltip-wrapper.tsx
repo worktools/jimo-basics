@@ -1,12 +1,12 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import { css } from "@emotion/css";
 import { useTooltip } from "../../../src/tooltip";
 import { DocDemo, DocSnippet, DocBlock } from "@worktools/doc-frame";
 import JimoButton from "../../../src/jimo-button";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import TooltipWrapper from "../../../src/tooltip-wrapper";
 
-let DemoTooltipWrapper: FC<{ className?: string }> = React.memo((props) => {
+let DemoTooltipWrapper: FC<{ className?: string; children?: ReactNode }> = React.memo((props) => {
   /** Plugins */
 
   let tooltipPlugin = useTooltip({

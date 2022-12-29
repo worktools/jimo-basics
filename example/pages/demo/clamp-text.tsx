@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { css } from "@emotion/css";
 import { DocDemo, DocBlock, DocSnippet } from "@worktools/doc-frame";
 import ClampText from "../../../src/clamp-text";
-import { Space } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 
 let text =
   "As of right now, it's browser support. Line clamps are part of the CSS Overflow Module Level 3 which is currently in Editor's Draft and totally unsupported at the moment. 上海积梦智能科技有限公司， s为亟待升级改革的离散型制造业提供数字化工厂解决方案。积梦智能通过互联网和物联网技术，帮助企业快速建设自己的数字工厂，实现生产运营的可视化，驱动管理实时决策，助力企业提升运营效率，降低运营成本，从而获取更快的市场响应速度。 ";
